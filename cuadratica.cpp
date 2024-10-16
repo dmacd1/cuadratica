@@ -6,6 +6,7 @@ using namespace std;
 int main() {
     //GUARDAR VARIABLES
     double a,b,c, x1, x2,x;
+    //PEDIR LAS VARIBLES
     cin>>a>>b>>c;
     x1= (-1*b)+sqrt((b*b)-4*(a*c))/(2*a);
     x2= (-1*b)-sqrt((b*b)-4*(a*c))/(2*a);

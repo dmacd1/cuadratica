@@ -8,6 +8,7 @@ int main() {
     double a,b,c, x1, x2,x;
     //PEDIR LAS VARIBLES
     cin>>a>>b>>c;
+    //EN ESTE APARTADO ES DONDE FUNCIONARA LA FORMULA CUADRATICA DANDO LOS DOS RESULTADOS CORRESPONDIENTES
     x1= (-1*b)+sqrt((b*b)-4*(a*c))/(2*a);
     x2= (-1*b)-sqrt((b*b)-4*(a*c))/(2*a);
     cout<<"X1= "<<x1<<endl;
